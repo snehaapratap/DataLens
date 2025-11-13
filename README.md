@@ -131,4 +131,14 @@ Endpoint: `POST /download-pdf`
   }
   ```
 
+## Bonus Features
+The following bonus features have been implemented in this project:
+
+- **Embeddings and Similarity Search**: The system generates embeddings for documents and performs similarity searches using Qdrant.
+- **Authentication**: Token-based authentication is implemented to secure API access.
+- **Unit Tests**: Unit tests are included for major modules to ensure reliability.
+- **Enhanced PDF Styling**: The PDF reports include embedded charts and tables with proper formatting.
+- **Logging and Error Handling**: A logging system and error-handling middleware are integrated for better debugging and monitoring.
+
+
 
