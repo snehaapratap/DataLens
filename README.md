@@ -29,7 +29,7 @@ DataLens is an AI-powered backend system that generates structured business repo
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/snehaapratap/DataLens>
+   git clone https://github.com/snehaapratap/DataLens
    cd DataLens
    ```
 
@@ -131,9 +131,4 @@ Endpoint: `POST /download-pdf`
   }
   ```
 
-## Deployment
-To deploy the application, use any cloud hosting platform (e.g., Render, Railway, AWS). Ensure the `.env` file is configured with production credentials.
-
-## License
-This project is licensed under the MIT License.
 
