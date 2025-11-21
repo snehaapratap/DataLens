@@ -6,25 +6,15 @@ python-dotenv
 pillow
 pandas
 numpy
-sentence-transformers
-transformers
-torch
-# tqdm
 qdrant-client
 langchain
-# pytesseract
-# pytest
-pydantic-settings
-python-multipart
-langchain-groq
-langchain
 groq
-# transformers[torch]
-# sentence-transformers  # if using embeddings
-pandas
+langchain-groq
+python-multipart
+pydantic-settings
 langchain-community
 langchain-core
 s3fs
-boto3 
-matplotlib 
+boto3
+matplotlib
 reportlab
