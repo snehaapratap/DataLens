@@ -19,10 +19,8 @@ python-multipart
 langchain-groq
 langchain
 groq
-transformers
-torch  # (or torch-cpu)
-transformers[torch]
-sentence-transformers  # if using embeddings
+# transformers[torch]
+# sentence-transformers  # if using embeddings
 pandas
 langchain-community
 langchain-core
