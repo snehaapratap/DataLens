@@ -9,11 +9,11 @@ numpy
 sentence-transformers
 transformers
 torch
-tqdm
+# tqdm
 qdrant-client
 langchain
-pytesseract
-pytest
+# pytesseract
+# pytest
 pydantic-settings
 python-multipart
 langchain-groq
