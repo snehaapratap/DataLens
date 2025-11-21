@@ -12,7 +12,6 @@ torch
 tqdm
 qdrant-client
 langchain
-groq-client
 pytesseract
 pytest
 pydantic-settings
@@ -27,7 +26,6 @@ sentence-transformers  # if using embeddings
 pandas
 langchain-community
 langchain-core
-groq-client
 s3fs
 boto3 
 matplotlib 

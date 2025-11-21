@@ -1730,3 +1730,21 @@ b'{"status":{"error":"Format error in JSON body: value 9a89a609-7ad4-4d00-b79e-6
 2025-11-21 18:05:06,597 - WARNING - Qdrant upsert failed: Unexpected Response: 400 (Bad Request)
 Raw response content:
 b'{"status":{"error":"Format error in JSON body: value b29341fa-2c3c-43e8-bc76-4525b6966532_0 is not a valid point ID, valid values are either an unsigned integer or a UUID"},"time":0.0}'
+2025-11-21 18:15:04,731 - INFO - Uploaded to S3 s3://datalens11/20ea301f-7e52-4eb0-8f60-2ea7c476617d/1763729103539_marketing.csv
+2025-11-21 18:15:04,739 - INFO - Saved file uploads/1763729103539_marketing.csv (size=389)
+2025-11-21 18:15:05,737 - INFO - Uploaded to S3 s3://datalens11/20ea301f-7e52-4eb0-8f60-2ea7c476617d/1763729104739_website_traffic.csv
+2025-11-21 18:15:05,742 - INFO - Saved file uploads/1763729104739_website_traffic.csv (size=168)
+2025-11-21 18:15:06,815 - INFO - Uploaded to S3 s3://datalens11/20ea301f-7e52-4eb0-8f60-2ea7c476617d/1763729105742_sales.csv
+2025-11-21 18:15:06,820 - INFO - Saved file uploads/1763729105742_sales.csv (size=305)
+2025-11-21 18:15:08,168 - INFO - Uploaded to S3 s3://datalens11/20ea301f-7e52-4eb0-8f60-2ea7c476617d/1763729106821_marketing_chart.png
+2025-11-21 18:15:08,175 - INFO - Saved file uploads/1763729106821_marketing_chart.png (size=33021)
+2025-11-21 18:15:09,274 - INFO - Uploaded to S3 s3://datalens11/20ea301f-7e52-4eb0-8f60-2ea7c476617d/1763729108175_traffic_chart.png
+2025-11-21 18:15:09,279 - INFO - Saved file uploads/1763729108175_traffic_chart.png (size=14557)
+2025-11-21 18:15:10,593 - INFO - Uploaded to S3 s3://datalens11/20ea301f-7e52-4eb0-8f60-2ea7c476617d/1763729109279_sales_chart.png
+2025-11-21 18:15:10,599 - INFO - Saved file uploads/1763729109279_sales_chart.png (size=28177)
+2025-11-21 18:15:42,484 - INFO - Groq Agent inputs: 3 CSV + 3 images
+2025-11-21 18:15:42,672 - INFO - 📡 Sending request to Groq
+2025-11-21 18:15:43,458 - INFO - ✅ Groq report parsed successfully
+2025-11-21 18:15:47,280 - WARNING - Qdrant upsert failed: Unexpected Response: 400 (Bad Request)
+Raw response content:
+b'{"status":{"error":"Format error in JSON body: value a76d281b-9873-4592-8584-2e6ebcf64cb2_0 is not a valid point ID, valid values are either an unsigned integer or a UUID"},"time":0.0}'
