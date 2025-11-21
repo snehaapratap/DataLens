@@ -1,0 +1,34 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-dotenv
+pillow
+pandas
+numpy
+sentence-transformers
+transformers
+torch
+tqdm
+qdrant-client
+langchain
+groq-client
+pytesseract
+pytest
+pydantic-settings
+python-multipart
+langchain-groq
+langchain
+groq
+transformers
+torch  # (or torch-cpu)
+transformers[torch]
+sentence-transformers  # if using embeddings
+pandas
+langchain-community
+langchain-core
+groq-client
+s3fs
+boto3 
+matplotlib 
+reportlab

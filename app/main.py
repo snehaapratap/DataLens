@@ -1,43 +1,103 @@
-from fastapi import FastAPI, Depends, HTTPException, status
-from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
-import os
-from app.routes import upload, report
-import logging
+# app/main.py
+
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
-from starlette.exceptions import HTTPException as StarletteHTTPException
-from app.utils.auth import authenticate
+from starlette.middleware.base import BaseHTTPMiddleware
+from starlette.responses import JSONResponse
+from fastapi.openapi.utils import get_openapi
 
-security = HTTPBearer()
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger(__name__)
+from app.config import settings
+from app.db.database import init_db
+from app.routes import upload, report
 
-app = FastAPI(
-    title="DataLens API",
-    description="AI-powered Vision-Language Business Report Generator",
-    version="1.0"
-)
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# -----------------------
+# Middleware for API Token
+# -----------------------
+async def verify_token(request: Request, call_next):
+    protected_paths = ["/generate-report"]
 
-app.include_router(upload.router, tags=["Upload"])
-app.include_router(report.router, tags=["Report"])
-@app.exception_handler(StarletteHTTPException)
-async def custom_http_exception_handler(request, exc):
-    logger.error(f"HTTP Exception: {exc.detail}")
-    return JSONResponse(status_code=exc.status_code, content={"detail": exc.detail})
+    if any(request.url.path.startswith(p) for p in protected_paths):
+        provided = request.headers.get("Authorization")
 
-@app.exception_handler(Exception)
-async def custom_exception_handler(request, exc):
-    logger.error(f"Unhandled Exception: {str(exc)}")
-    return JSONResponse(status_code=500, content={"detail": "Internal Server Error"})
+        if not provided:
+            return JSONResponse(
+                status_code=401,
+                content={"detail": "Missing Authorization header"},
+            )
 
-@app.get("/")
-def root():
-    return {"message": "Welcome to DataLens API"}
+        # EXACT MATCH — Your token is 12345
+        if provided.strip() != settings.API_TOKEN:
+            return JSONResponse(
+                status_code=403,
+                content={"detail": "Invalid API token"},
+            )
+
+    return await call_next(request)
+
+
+# -----------------------
+# Swagger Auth Button
+# -----------------------
+def custom_openapi(app: FastAPI):
+    if app.openapi_schema:
+        return app.openapi_schema
+
+    schema = get_openapi(
+        title="DataLens API",
+        version="1.0.0",
+        description="Automated dataset ingestion + vector storage + Groq-powered reporting.",
+        routes=app.routes,
+    )
+
+    # Add security scheme
+    schema["components"]["securitySchemes"] = {
+        "ApiTokenAuth": {
+            "type": "apiKey",
+            "in": "header",
+            "name": "Authorization",
+        }
+    }
+
+    # Secure ONLY this endpoint
+    if "/generate-report" in schema["paths"]:
+        for method in schema["paths"]["/generate-report"]:
+            schema["paths"]["/generate-report"][method]["security"] = [
+                {"ApiTokenAuth": []}
+            ]
+
+    app.openapi_schema = schema
+    return schema
+
+
+# -----------------------
+# App Factory
+# -----------------------
+def create_app():
+    app = FastAPI()
+
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+
+    # Add API token middleware
+    app.add_middleware(BaseHTTPMiddleware, dispatch=verify_token)
+
+    @app.on_event("startup")
+    def start_db():
+        init_db()
+
+    # Routes
+    app.include_router(upload.router)
+    app.include_router(report.router)
+
+    # Override swagger schema
+    app.openapi = lambda: custom_openapi(app)
+
+    return app
+
+
+app = create_app()

@@ -1,0 +1,1732 @@
+2025-11-21 12:51:36,586 - INFO - Groq integration not available: No module named 'langchain_groq'
+2025-11-21 12:52:36,739 - INFO - Groq integration not available: No module named 'langchain_groq'
+2025-11-21 12:52:45,728 - INFO - Groq integration not available: No module named 'langchain_groq'
+2025-11-21 12:53:09,381 - INFO - Groq integration not available: No module named 'langchain_groq'
+2025-11-21 13:12:44,708 - INFO - Uploaded to S3 s3://datalens11/4f06790e-2167-47a1-b069-c803837eb9d0/1763710963213_marketing.csv
+2025-11-21 13:13:58,081 - INFO - Uploaded to S3 s3://datalens11/655b9713-5dfa-49f1-a543-e781f70f5f01/1763711036914_1763710963213_marketing.csv
+2025-11-21 13:13:58,091 - INFO - Saved file uploads/1763711036914_1763710963213_marketing.csv (size=389)
+2025-11-21 13:13:59,617 - INFO - Uploaded to S3 s3://datalens11/655b9713-5dfa-49f1-a543-e781f70f5f01/1763711038091_marketing_chart.png
+2025-11-21 13:13:59,623 - INFO - Saved file uploads/1763711038091_marketing_chart.png (size=33021)
+2025-11-21 13:15:48,416 - INFO - Uploaded to S3 s3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711147180_website_traffic.csv
+2025-11-21 13:15:48,422 - INFO - Saved file uploads/1763711147180_website_traffic.csv (size=168)
+2025-11-21 13:15:49,460 - INFO - Uploaded to S3 s3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711148423_sales.csv
+2025-11-21 13:15:49,464 - INFO - Saved file uploads/1763711148423_sales.csv (size=305)
+2025-11-21 13:15:50,739 - INFO - Uploaded to S3 s3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711149464_sales_chart.png
+2025-11-21 13:15:50,745 - INFO - Saved file uploads/1763711149464_sales_chart.png (size=28177)
+2025-11-21 13:15:51,828 - INFO - Uploaded to S3 s3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711150746_traffic_chart.png
+2025-11-21 13:15:51,835 - INFO - Saved file uploads/1763711150746_traffic_chart.png (size=14557)
+2025-11-21 14:12:01,745 - INFO - Initializing database...
+2025-11-21 14:12:01,745 - INFO - Database ready.
+2025-11-21 14:17:32,287 - INFO - Starting DataLens app...
+2025-11-21 14:17:32,290 - INFO - Database ready.
+2025-11-21 14:17:32,290 - INFO - Groq API enabled + running.
+2025-11-21 14:19:05,556 - INFO - Starting DataLens app...
+2025-11-21 14:19:05,557 - INFO - Database ready.
+2025-11-21 14:19:05,557 - INFO - Groq API enabled + running.
+2025-11-21 14:19:13,566 - INFO - Starting DataLens app...
+2025-11-21 14:19:13,566 - INFO - Database ready.
+2025-11-21 14:19:13,566 - INFO - Groq API enabled + running.
+2025-11-21 14:19:38,766 - INFO - Starting DataLens app...
+2025-11-21 14:19:38,767 - INFO - Database ready.
+2025-11-21 14:19:38,767 - INFO - Groq API enabled + running.
+2025-11-21 15:02:10,903 - ERROR - CSV parse failed: Install s3fs to access S3
+2025-11-21 15:02:10,904 - ERROR - CSV parse failed: Install s3fs to access S3
+2025-11-21 15:04:37,284 - ERROR - BLIP failed: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711149464_sales_chart.png'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/vision.py", line 22, in extract_image_text
+    img = Image.open(path).convert("RGB")
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/PIL/Image.py", line 3493, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711149464_sales_chart.png'
+2025-11-21 15:04:37,291 - ERROR - BLIP failed: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711150746_traffic_chart.png'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/vision.py", line 22, in extract_image_text
+    img = Image.open(path).convert("RGB")
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/PIL/Image.py", line 3493, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711150746_traffic_chart.png'
+2025-11-21 15:27:06,475 - ERROR - CSV parse failed: Install s3fs to access S3
+2025-11-21 15:27:06,475 - ERROR - CSV parse failed: Install s3fs to access S3
+2025-11-21 15:27:10,655 - ERROR - BLIP failed: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711149464_sales_chart.png'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/vision.py", line 22, in extract_image_text
+    img = Image.open(path).convert("RGB")
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/PIL/Image.py", line 3493, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711149464_sales_chart.png'
+2025-11-21 15:27:10,659 - ERROR - BLIP failed: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711150746_traffic_chart.png'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/vision.py", line 22, in extract_image_text
+    img = Image.open(path).convert("RGB")
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/PIL/Image.py", line 3493, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711150746_traffic_chart.png'
+2025-11-21 15:29:16,138 - ERROR - CSV parse failed: Install s3fs to access S3
+2025-11-21 15:29:16,138 - ERROR - CSV parse failed: Install s3fs to access S3
+2025-11-21 15:29:19,851 - ERROR - BLIP failed: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711149464_sales_chart.png'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/vision.py", line 22, in extract_image_text
+    img = Image.open(path).convert("RGB")
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/PIL/Image.py", line 3493, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711149464_sales_chart.png'
+2025-11-21 15:29:19,854 - ERROR - BLIP failed: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711150746_traffic_chart.png'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/vision.py", line 22, in extract_image_text
+    img = Image.open(path).convert("RGB")
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/PIL/Image.py", line 3493, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711150746_traffic_chart.png'
+2025-11-21 15:29:57,158 - ERROR - CSV parse failed: Install s3fs to access S3
+2025-11-21 15:29:57,159 - ERROR - CSV parse failed: Install s3fs to access S3
+2025-11-21 15:30:01,173 - ERROR - BLIP failed: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711149464_sales_chart.png'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/vision.py", line 22, in extract_image_text
+    img = Image.open(path).convert("RGB")
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/PIL/Image.py", line 3493, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711149464_sales_chart.png'
+2025-11-21 15:30:01,177 - ERROR - BLIP failed: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711150746_traffic_chart.png'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/vision.py", line 22, in extract_image_text
+    img = Image.open(path).convert("RGB")
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/PIL/Image.py", line 3493, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711150746_traffic_chart.png'
+2025-11-21 15:54:13,180 - ERROR - CSV parse failed: Install s3fs to access S3
+2025-11-21 15:54:13,180 - ERROR - CSV parse failed: Install s3fs to access S3
+2025-11-21 15:54:17,448 - ERROR - BLIP failed: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711149464_sales_chart.png'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/vision.py", line 22, in extract_image_text
+    img = Image.open(path).convert("RGB")
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/PIL/Image.py", line 3493, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711149464_sales_chart.png'
+2025-11-21 15:54:17,452 - ERROR - BLIP failed: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711150746_traffic_chart.png'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/vision.py", line 22, in extract_image_text
+    img = Image.open(path).convert("RGB")
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/PIL/Image.py", line 3493, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 's3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711150746_traffic_chart.png'
+2025-11-21 15:54:17,512 - ERROR - LLM failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'input\'] Received: [\'input\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 62, in run_langchain_agent
+    result = chain.invoke({"input": combined_input})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'input\'] Received: [\'input\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:05:56,420 - ERROR - LLM failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'input\'] Received: [\'input\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 62, in run_langchain_agent
+    result = chain.invoke({"input": combined_input})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'input\'] Received: [\'input\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:06:00,436 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 122, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 16:20:30,816 - ERROR - LLM failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'input\'] Received: [\'input\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 64, in run_langchain_agent
+    result = chain.invoke({"input": combined_input})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'input\'] Received: [\'input\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:20:34,839 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 122, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 16:21:24,337 - ERROR - LLM failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'input\'] Received: [\'input\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 64, in run_langchain_agent
+    result = chain.invoke({"input": combined_input})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'input\'] Received: [\'input\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:21:24,551 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 122, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 16:26:03,912 - INFO - Invoking Groq LangChain pipeline (attempt 1)...
+2025-11-21 16:26:03,913 - ERROR - Groq/JSON attempt 1 failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 128, in run_langchain_agent
+    result = chain.invoke({"csv_block": csv_block, "image_block": image_block})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:26:03,914 - INFO - Invoking Groq LangChain pipeline (attempt 2)...
+2025-11-21 16:26:03,915 - ERROR - Groq/JSON attempt 2 failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 128, in run_langchain_agent
+    result = chain.invoke({"csv_block": csv_block, "image_block": image_block})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:26:03,915 - INFO - Invoking Groq LangChain pipeline (attempt 3)...
+2025-11-21 16:26:03,915 - ERROR - Groq/JSON attempt 3 failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 128, in run_langchain_agent
+    result = chain.invoke({"csv_block": csv_block, "image_block": image_block})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:26:03,915 - ERROR - All Groq attempts failed; using fallback. Last error: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:26:10,736 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 122, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 16:33:42,307 - INFO - Downloading from S3 s3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711147180_website_traffic.csv to tmp/csv/1763711147180_website_traffic.csv
+2025-11-21 16:33:43,659 - INFO - Downloading from S3 s3://datalens11/2e9b55bf-3918-40b2-9253-2101b8a28721/1763711148423_sales.csv to tmp/csv/1763711148423_sales.csv
+2025-11-21 16:33:48,423 - INFO - Prepared 2 CSV summaries and 2 image captions for Groq.
+2025-11-21 16:33:48,459 - INFO - Invoking Groq LangChain pipeline (attempt 1)...
+2025-11-21 16:33:48,459 - ERROR - Groq/JSON attempt 1 failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 128, in run_langchain_agent
+    result = chain.invoke({"csv_block": csv_block, "image_block": image_block})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:33:48,461 - INFO - Invoking Groq LangChain pipeline (attempt 2)...
+2025-11-21 16:33:48,461 - ERROR - Groq/JSON attempt 2 failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 128, in run_langchain_agent
+    result = chain.invoke({"csv_block": csv_block, "image_block": image_block})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:33:48,462 - INFO - Invoking Groq LangChain pipeline (attempt 3)...
+2025-11-21 16:33:48,462 - ERROR - Groq/JSON attempt 3 failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 128, in run_langchain_agent
+    result = chain.invoke({"csv_block": csv_block, "image_block": image_block})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:33:48,462 - ERROR - All Groq attempts failed; using fallback. Last error: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:33:52,178 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 250, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 16:42:09,232 - INFO - Uploaded to S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723528021_marketing.csv
+2025-11-21 16:42:09,239 - INFO - Saved file uploads/1763723528021_marketing.csv (size=389)
+2025-11-21 16:42:10,310 - INFO - Uploaded to S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723529239_website_traffic.csv
+2025-11-21 16:42:10,317 - INFO - Saved file uploads/1763723529239_website_traffic.csv (size=168)
+2025-11-21 16:42:11,343 - INFO - Uploaded to S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723530317_sales.csv
+2025-11-21 16:42:11,346 - INFO - Saved file uploads/1763723530317_sales.csv (size=305)
+2025-11-21 16:42:12,950 - INFO - Uploaded to S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723531346_marketing_chart.png
+2025-11-21 16:42:12,954 - INFO - Saved file uploads/1763723531346_marketing_chart.png (size=33021)
+2025-11-21 16:42:13,992 - INFO - Uploaded to S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723532954_traffic_chart.png
+2025-11-21 16:42:13,995 - INFO - Saved file uploads/1763723532954_traffic_chart.png (size=14557)
+2025-11-21 16:42:15,230 - INFO - Uploaded to S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723533995_sales_chart.png
+2025-11-21 16:42:15,233 - INFO - Saved file uploads/1763723533995_sales_chart.png (size=28177)
+2025-11-21 16:44:07,496 - INFO - Downloading from S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723528021_marketing.csv to tmp/csv/1763723528021_marketing.csv
+2025-11-21 16:44:08,852 - INFO - Downloading from S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723529239_website_traffic.csv to tmp/csv/1763723529239_website_traffic.csv
+2025-11-21 16:44:09,965 - INFO - Downloading from S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723530317_sales.csv to tmp/csv/1763723530317_sales.csv
+2025-11-21 16:44:16,208 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 16:44:16,247 - INFO - Invoking Groq LangChain pipeline (attempt 1)...
+2025-11-21 16:44:16,247 - ERROR - Groq/JSON attempt 1 failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 128, in run_langchain_agent
+    result = chain.invoke({"csv_block": csv_block, "image_block": image_block})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:44:16,250 - INFO - Invoking Groq LangChain pipeline (attempt 2)...
+2025-11-21 16:44:16,251 - ERROR - Groq/JSON attempt 2 failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 128, in run_langchain_agent
+    result = chain.invoke({"csv_block": csv_block, "image_block": image_block})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:44:16,251 - INFO - Invoking Groq LangChain pipeline (attempt 3)...
+2025-11-21 16:44:16,251 - ERROR - Groq/JSON attempt 3 failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 128, in run_langchain_agent
+    result = chain.invoke({"csv_block": csv_block, "image_block": image_block})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:44:16,251 - ERROR - All Groq attempts failed; using fallback. Last error: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:44:20,577 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 250, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 16:46:33,738 - INFO - Downloading from S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723528021_marketing.csv to tmp/csv/1763723528021_marketing.csv
+2025-11-21 16:46:35,026 - INFO - Downloading from S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723529239_website_traffic.csv to tmp/csv/1763723529239_website_traffic.csv
+2025-11-21 16:46:36,249 - INFO - Downloading from S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723530317_sales.csv to tmp/csv/1763723530317_sales.csv
+2025-11-21 16:46:42,571 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 16:46:42,579 - INFO - Invoking Groq LangChain pipeline (attempt 1)...
+2025-11-21 16:46:42,580 - ERROR - Groq/JSON attempt 1 failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 128, in run_langchain_agent
+    result = chain.invoke({"csv_block": csv_block, "image_block": image_block})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:46:42,580 - INFO - Invoking Groq LangChain pipeline (attempt 2)...
+2025-11-21 16:46:42,580 - ERROR - Groq/JSON attempt 2 failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 128, in run_langchain_agent
+    result = chain.invoke({"csv_block": csv_block, "image_block": image_block})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:46:42,580 - INFO - Invoking Groq LangChain pipeline (attempt 3)...
+2025-11-21 16:46:42,580 - ERROR - Groq/JSON attempt 3 failed: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 128, in run_langchain_agent
+    result = chain.invoke({"csv_block": csv_block, "image_block": image_block})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:46:42,581 - ERROR - All Groq attempts failed; using fallback. Last error: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'csv_block\', \'image_block\'] Received: [\'csv_block\', \'image_block\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 16:46:42,826 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 250, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 16:56:59,446 - INFO - Groq/LangChain integration not available: No module named 'langchain_core.pydantic_v1'
+2025-11-21 16:57:14,687 - INFO - Groq/LangChain integration not available: No module named 'langchain_core.pydantic_v1'
+2025-11-21 16:57:25,216 - INFO - Groq/LangChain integration not available: No module named 'langchain_core.pydantic_v1'
+2025-11-21 16:58:35,661 - INFO - Groq/LangChain integration not available: No module named 'langchain_core.pydantic_v1'
+2025-11-21 16:59:32,599 - INFO - Groq/LangChain integration not available: No module named 'langchain_core.pydantic_v1'
+2025-11-21 16:59:39,895 - INFO - Groq/LangChain integration not available: No module named 'langchain_core.pydantic_v1'
+2025-11-21 16:59:40,400 - INFO - Downloading from S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723528021_marketing.csv to tmp/csv/1763723528021_marketing.csv
+2025-11-21 16:59:41,709 - INFO - Downloading from S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723529239_website_traffic.csv to tmp/csv/1763723529239_website_traffic.csv
+2025-11-21 16:59:42,993 - INFO - Downloading from S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723530317_sales.csv to tmp/csv/1763723530317_sales.csv
+2025-11-21 16:59:49,524 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 16:59:49,525 - ERROR - LangChain or Groq not available, using fallback output.
+2025-11-21 16:59:54,049 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 250, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 17:06:05,819 - INFO - Downloading from S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723528021_marketing.csv to tmp/csv/1763723528021_marketing.csv
+2025-11-21 17:06:07,025 - INFO - Downloading from S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723529239_website_traffic.csv to tmp/csv/1763723529239_website_traffic.csv
+2025-11-21 17:06:08,112 - INFO - Downloading from S3 s3://datalens11/23d3819d-fd6b-49f9-8f57-f85fab1c75de/1763723530317_sales.csv to tmp/csv/1763723530317_sales.csv
+2025-11-21 17:06:14,820 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:06:14,857 - ERROR - Groq/LangChain pipeline failed, using fallback: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'input_text\'] Received: [\'input_text\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 177, in run_langchain_agent
+    response = chain.invoke({"input_text": combined_input})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'input_text\'] Received: [\'input_text\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 17:06:19,350 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 250, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 17:07:32,392 - INFO - Uploaded to S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv
+2025-11-21 17:07:32,401 - INFO - Saved file uploads/1763725051054_marketing.csv (size=389)
+2025-11-21 17:07:33,678 - INFO - Uploaded to S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv
+2025-11-21 17:07:33,682 - INFO - Saved file uploads/1763725052402_website_traffic.csv (size=168)
+2025-11-21 17:07:34,781 - INFO - Uploaded to S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv
+2025-11-21 17:07:34,788 - INFO - Saved file uploads/1763725053683_sales.csv (size=305)
+2025-11-21 17:07:36,145 - INFO - Uploaded to S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725054788_marketing_chart.png
+2025-11-21 17:07:36,152 - INFO - Saved file uploads/1763725054788_marketing_chart.png (size=33021)
+2025-11-21 17:07:37,325 - INFO - Uploaded to S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725056153_traffic_chart.png
+2025-11-21 17:07:37,328 - INFO - Saved file uploads/1763725056153_traffic_chart.png (size=14557)
+2025-11-21 17:07:38,691 - INFO - Uploaded to S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725057329_sales_chart.png
+2025-11-21 17:07:38,698 - INFO - Saved file uploads/1763725057329_sales_chart.png (size=28177)
+2025-11-21 17:08:16,331 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:08:17,452 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:08:18,583 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:08:24,846 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:08:24,883 - ERROR - Groq/LangChain pipeline failed, using fallback: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'input_text\'] Received: [\'input_text\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 177, in run_langchain_agent
+    response = chain.invoke({"input_text": combined_input})
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 217, in invoke
+    return self._call_with_config(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 2050, in _call_with_config
+    context.run(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 190, in _format_prompt_with_error_handling
+    inner_input_ = self._validate_input(inner_input)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/langchain_core/prompts/base.py", line 184, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n  "summary"\'}.  Expected: [\'\\n  "summary"\', \'input_text\'] Received: [\'input_text\']\nNote: if you intended {\n  "summary"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n  "summary"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2025-11-21 17:08:29,557 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 250, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 17:12:42,723 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:12:44,008 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:12:45,234 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:12:51,445 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:12:51,481 - ERROR - Groq/LangChain failed → Using fallback: name 'prompt' is not defined
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 167, in run_langchain_agent
+    chain = prompt | llm
+NameError: name 'prompt' is not defined
+2025-11-21 17:12:51,618 - ERROR - Embedding indexing failed: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 244, in generate_report
+    agent_out.get("summary", ""),
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-11-21 17:18:57,715 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:18:59,201 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:19:00,431 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:19:07,062 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:19:07,094 - INFO - Calling Groq model llama-3.1-8b-instant for report generation.
+2025-11-21 17:19:08,628 - ERROR - Failed to parse LLM JSON: Expecting ',' delimiter: line 109 column 6 (char 3627)
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 121, in _clean_and_parse_json
+    return json.loads(text)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 109 column 6 (char 3627)
+2025-11-21 17:19:08,630 - ERROR - LLM did not return valid JSON, using fallback.
+2025-11-21 17:19:14,369 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 250, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 17:20:28,488 - INFO - Groq/LangChain integration not available: No module named 'langchain_groq'
+2025-11-21 17:22:19,426 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:22:20,669 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:22:21,853 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:22:28,286 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:22:28,324 - INFO - Calling Groq model llama-3.1-8b-instant for report generation.
+2025-11-21 17:22:29,848 - ERROR - Failed to parse LLM JSON: Expecting ',' delimiter: line 103 column 6 (char 3568)
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 121, in _clean_and_parse_json
+    return json.loads(text)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 103 column 6 (char 3568)
+2025-11-21 17:22:29,852 - ERROR - LLM did not return valid JSON, using fallback.
+2025-11-21 17:22:35,290 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 250, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 17:24:56,767 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:24:58,012 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:24:58,999 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:25:05,365 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:25:12,369 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 250, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 17:27:21,588 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:27:23,250 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:27:24,332 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:27:33,148 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:27:38,827 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 250, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 17:33:28,512 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:33:29,916 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:33:31,243 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:33:37,789 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:33:37,827 - INFO - 📡 Sending request to Groq
+2025-11-21 17:33:39,641 - INFO - ✅ Groq report parsed successfully
+2025-11-21 17:33:43,884 - ERROR - Embedding indexing failed: [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 134, in send_inner
+    response = self._client.send(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 213, in generate_report
+    qdrant.upsert("reports", ids, vectors, payloads)
+  File "/Users/snehapratap/Desktop/DataLens/app/services/qdrant_client.py", line 21, in upsert
+    self.client.upsert(collection_name=collection_name, points=[{"id": i, "vector": v, "payload": p} for i,v,p in zip(ids,vectors,payloads)])
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_client.py", line 1633, in upsert
+    return self._client.upsert(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py", line 1911, in upsert
+    http_result = self.openapi_client.points_api.upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 987, in upsert_points
+    return self._build_for_upsert_points(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api/points_api.py", line 512, in _build_for_upsert_points
+    return self.api_client.request(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 95, in request
+    return self.send(request, type_)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 112, in send
+    response = self.middleware(request, self.send_inner)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 250, in __call__
+    return call_next(request)
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/qdrant_client/http/api_client.py", line 136, in send_inner
+    raise ResponseHandlingException(e)
+qdrant_client.http.exceptions.ResponseHandlingException: [Errno 61] Connection refused
+2025-11-21 17:36:18,664 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:36:20,103 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:36:21,228 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:36:27,657 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:36:27,695 - INFO - 📡 Sending request to Groq
+2025-11-21 17:36:28,507 - INFO - ✅ Groq report parsed successfully
+2025-11-21 17:36:28,513 - WARNING - Qdrant is disabled — skipping embeddings.
+2025-11-21 17:38:52,473 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:38:53,713 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:38:54,936 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:39:01,452 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:39:01,492 - INFO - 📡 Sending request to Groq
+2025-11-21 17:39:02,333 - INFO - ✅ Groq report parsed successfully
+2025-11-21 17:39:02,338 - WARNING - Qdrant is disabled — skipping embeddings.
+2025-11-21 17:41:06,524 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:41:07,704 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:41:08,806 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:41:16,354 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:41:16,387 - INFO - 📡 Sending request to Groq
+2025-11-21 17:41:17,278 - INFO - ✅ Groq report parsed successfully
+2025-11-21 17:41:17,285 - WARNING - Qdrant is disabled — skipping embeddings.
+2025-11-21 17:47:39,952 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:47:41,209 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:47:42,296 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:47:48,419 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:47:48,423 - ERROR - Groq agent failed, falling back. Error: 1 validation error for ChatGroq
+__root__
+  Did not find groq_api_key, please add an environment variable `GROQ_API_KEY` which contains it, or pass `groq_api_key` as a named parameter. (type=value_error)
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/ai/langchain_agent.py", line 317, in _call_groq_agent
+    llm = ChatGroq(
+  File "/Users/snehapratap/Desktop/DataLens/venv/lib/python3.10/site-packages/pydantic/v1/main.py", line 347, in __init__
+    raise validation_error
+pydantic.v1.error_wrappers.ValidationError: 1 validation error for ChatGroq
+__root__
+  Did not find groq_api_key, please add an environment variable `GROQ_API_KEY` which contains it, or pass `groq_api_key` as a named parameter. (type=value_error)
+2025-11-21 17:47:48,426 - WARNING - Qdrant is disabled — skipping embeddings.
+2025-11-21 17:48:36,273 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:48:37,406 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:48:38,499 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:48:44,899 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:48:44,936 - INFO - 📡 Sending request to Groq
+2025-11-21 17:48:45,859 - INFO - ✅ Groq report parsed successfully
+2025-11-21 17:48:45,866 - WARNING - Qdrant is disabled — skipping embeddings.
+2025-11-21 17:49:19,251 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725051054_marketing.csv to tmp/csv/1763725051054_marketing.csv
+2025-11-21 17:49:20,713 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725052402_website_traffic.csv to tmp/csv/1763725052402_website_traffic.csv
+2025-11-21 17:49:21,933 - INFO - Downloading from S3 s3://datalens11/d3f6804a-fb65-4b2f-9aef-214e46e448bb/1763725053683_sales.csv to tmp/csv/1763725053683_sales.csv
+2025-11-21 17:49:28,380 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:49:28,388 - INFO - 📡 Sending request to Groq
+2025-11-21 17:49:29,303 - INFO - ✅ Groq report parsed successfully
+2025-11-21 17:49:29,306 - ERROR - PDF generation/upload failed: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 184, in generate_report
+    generate_pdf(agent_out, local_pdf)
+  File "/Users/snehapratap/Desktop/DataLens/app/utils/pdf_generator.py", line 92, in generate_pdf
+    desc = t.get("description") or ""
+AttributeError: 'str' object has no attribute 'get'
+2025-11-21 17:49:29,313 - WARNING - Qdrant is disabled — skipping embeddings.
+2025-11-21 17:51:15,795 - INFO - Uploaded to S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727674511_marketing.csv
+2025-11-21 17:51:15,800 - INFO - Saved file uploads/1763727674511_marketing.csv (size=389)
+2025-11-21 17:51:16,919 - INFO - Uploaded to S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727675800_website_traffic.csv
+2025-11-21 17:51:16,922 - INFO - Saved file uploads/1763727675800_website_traffic.csv (size=168)
+2025-11-21 17:51:18,045 - INFO - Uploaded to S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727676922_sales.csv
+2025-11-21 17:51:18,049 - INFO - Saved file uploads/1763727676922_sales.csv (size=305)
+2025-11-21 17:51:19,484 - INFO - Uploaded to S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727678049_marketing_chart.png
+2025-11-21 17:51:19,488 - INFO - Saved file uploads/1763727678049_marketing_chart.png (size=33021)
+2025-11-21 17:51:20,813 - INFO - Uploaded to S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727679489_traffic_chart.png
+2025-11-21 17:51:20,820 - INFO - Saved file uploads/1763727679489_traffic_chart.png (size=14557)
+2025-11-21 17:51:22,245 - INFO - Uploaded to S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727680820_sales_chart.png
+2025-11-21 17:51:22,249 - INFO - Saved file uploads/1763727680820_sales_chart.png (size=28177)
+2025-11-21 17:51:46,370 - INFO - Downloading from S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727674511_marketing.csv to tmp/csv/1763727674511_marketing.csv
+2025-11-21 17:51:47,755 - INFO - Downloading from S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727675800_website_traffic.csv to tmp/csv/1763727675800_website_traffic.csv
+2025-11-21 17:51:48,810 - INFO - Downloading from S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727676922_sales.csv to tmp/csv/1763727676922_sales.csv
+2025-11-21 17:51:55,422 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:51:55,461 - INFO - 📡 Sending request to Groq
+2025-11-21 17:51:56,466 - INFO - ✅ Groq report parsed successfully
+2025-11-21 17:51:56,468 - ERROR - PDF generation/upload failed: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 184, in generate_report
+    generate_pdf(agent_out, local_pdf)
+  File "/Users/snehapratap/Desktop/DataLens/app/utils/pdf_generator.py", line 92, in generate_pdf
+    desc = t.get("description") or ""
+AttributeError: 'str' object has no attribute 'get'
+2025-11-21 17:51:56,479 - WARNING - Qdrant is disabled — skipping embeddings.
+2025-11-21 17:53:01,564 - INFO - Downloading from S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727674511_marketing.csv to tmp/csv/1763727674511_marketing.csv
+2025-11-21 17:53:02,653 - INFO - Downloading from S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727675800_website_traffic.csv to tmp/csv/1763727675800_website_traffic.csv
+2025-11-21 17:53:03,827 - INFO - Downloading from S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727676922_sales.csv to tmp/csv/1763727676922_sales.csv
+2025-11-21 17:53:09,846 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:53:09,852 - INFO - 📡 Sending request to Groq
+2025-11-21 17:53:10,588 - INFO - ✅ Groq report parsed successfully
+2025-11-21 17:53:10,588 - ERROR - PDF generation/upload failed: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 184, in generate_report
+    generate_pdf(agent_out, local_pdf)
+  File "/Users/snehapratap/Desktop/DataLens/app/utils/pdf_generator.py", line 92, in generate_pdf
+    desc = t.get("description") or ""
+AttributeError: 'str' object has no attribute 'get'
+2025-11-21 17:53:10,593 - WARNING - Qdrant is disabled — skipping embeddings.
+2025-11-21 17:54:08,918 - INFO - Downloading from S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727674511_marketing.csv to tmp/csv/1763727674511_marketing.csv
+2025-11-21 17:54:10,118 - INFO - Downloading from S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727675800_website_traffic.csv to tmp/csv/1763727675800_website_traffic.csv
+2025-11-21 17:54:11,312 - INFO - Downloading from S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727676922_sales.csv to tmp/csv/1763727676922_sales.csv
+2025-11-21 17:54:17,885 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:54:17,893 - INFO - 📡 Sending request to Groq
+2025-11-21 17:54:18,809 - INFO - ✅ Groq report parsed successfully
+2025-11-21 17:54:18,811 - ERROR - PDF generation/upload failed: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 184, in generate_report
+    generate_pdf(agent_out, local_pdf)
+  File "/Users/snehapratap/Desktop/DataLens/app/utils/pdf_generator.py", line 92, in generate_pdf
+    desc = t.get("description") or ""
+AttributeError: 'str' object has no attribute 'get'
+2025-11-21 17:54:18,816 - WARNING - Qdrant is disabled — skipping embeddings.
+2025-11-21 17:57:31,189 - INFO - Downloading from S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727674511_marketing.csv to tmp/csv/1763727674511_marketing.csv
+2025-11-21 17:57:32,643 - INFO - Downloading from S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727675800_website_traffic.csv to tmp/csv/1763727675800_website_traffic.csv
+2025-11-21 17:57:34,068 - INFO - Downloading from S3 s3://datalens11/6686c1c2-5788-4d46-a8e7-bac6e5c2f383/1763727676922_sales.csv to tmp/csv/1763727676922_sales.csv
+2025-11-21 17:57:40,494 - INFO - Prepared 3 CSV summaries and 3 image captions for Groq.
+2025-11-21 17:57:40,532 - INFO - 📡 Sending request to Groq
+2025-11-21 17:57:41,546 - INFO - ✅ Groq report parsed successfully
+2025-11-21 17:57:41,546 - ERROR - PDF generation failed: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/Users/snehapratap/Desktop/DataLens/app/routes/report.py", line 187, in generate_report
+    generate_pdf(agent_out, local_pdf)
+  File "/Users/snehapratap/Desktop/DataLens/app/utils/pdf_generator.py", line 92, in generate_pdf
+    desc = t.get("description") or ""
+AttributeError: 'str' object has no attribute 'get'
+2025-11-21 17:57:41,551 - WARNING - Qdrant is disabled — skipping embeddings.
+2025-11-21 18:01:48,583 - INFO - Groq Agent inputs: 3 CSV + 3 images
+2025-11-21 18:01:48,621 - INFO - 📡 Sending request to Groq
+2025-11-21 18:01:49,356 - INFO - ✅ Groq report parsed successfully
+2025-11-21 18:01:49,357 - ERROR - PDF generation failed: 'str' object has no attribute 'get'
+2025-11-21 18:01:53,246 - WARNING - Qdrant upsert failed: Unexpected Response: 400 (Bad Request)
+Raw response content:
+b'{"status":{"error":"Format error in JSON body: value 6b946912-566f-4e93-916f-8ab585c5c81b_0 is not a valid point ID, valid values are either an unsigned integer or a UUID"},"time":0.0}'
+2025-11-21 18:04:23,443 - INFO - Groq Agent inputs: 3 CSV + 3 images
+2025-11-21 18:04:23,560 - INFO - 📡 Sending request to Groq
+2025-11-21 18:04:24,428 - INFO - ✅ Groq report parsed successfully
+2025-11-21 18:04:24,429 - ERROR - PDF generation failed: 'str' object has no attribute 'get'
+2025-11-21 18:04:28,754 - WARNING - Qdrant upsert failed: Unexpected Response: 400 (Bad Request)
+Raw response content:
+b'{"status":{"error":"Format error in JSON body: value 9a89a609-7ad4-4d00-b79e-6363ca376e6b_0 is not a valid point ID, valid values are either an unsigned integer or a UUID"},"time":0.0}'
+2025-11-21 18:05:05,446 - INFO - Groq Agent inputs: 3 CSV + 3 images
+2025-11-21 18:05:05,453 - INFO - 📡 Sending request to Groq
+2025-11-21 18:05:06,370 - INFO - ✅ Groq report parsed successfully
+2025-11-21 18:05:06,374 - ERROR - PDF generation failed: 'str' object has no attribute 'get'
+2025-11-21 18:05:06,597 - WARNING - Qdrant upsert failed: Unexpected Response: 400 (Bad Request)
+Raw response content:
+b'{"status":{"error":"Format error in JSON body: value b29341fa-2c3c-43e8-bc76-4525b6966532_0 is not a valid point ID, valid values are either an unsigned integer or a UUID"},"time":0.0}'
